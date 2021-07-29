@@ -1,0 +1,16 @@
+.topic {
+    text-align: center;
+    color: darkmagenta
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30;
+  }
+.image {
+     background-color: white;
+ }
+ .dis {
+     font-size: x-large;
+ }

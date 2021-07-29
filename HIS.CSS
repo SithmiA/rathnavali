@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    color: rgb(6, 141, 194);
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30;
+  }
+ * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+body {
+  background-color: burlywood;
+}
